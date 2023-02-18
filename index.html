@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模擬企業サイト</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">
+            <a href="#"><img src="img/マッチョ.jpeg" alt="ロゴ画像"></a>
+        </h1>
+        <ul class="menu-pc">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Access</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="contact.html">
+                <i class="fas fa-file-signature"></i>Contact</a>
+            </li>
+        </ul>
+        <div id="btn" class="hamburger__btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul id="menu" class="menu-sp">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Access</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="contact.html"><i class="fas fa-file-signature"></i>Contact</a></li>
+        </ul>
+        <div id="modal" class="modal-sp"></div>
+    </header>
+    <main>
+        <section class="front-fv">
+            <img src="img/top3.jpg" alt="ファーストビュー">
+            <div class="pageTit">
+            <div class="pageTitTop">STADIOの名前</div>
+            <h1 class="pageTitBottom">フィットネスの名前</h1>
+        </div>
+        </section>
+
+        <section class="front-about">
+            <h2 class="front-common__title">About</h2>
+            <ul class="front-about__list">
+                <li class="front-about__item">
+                    <h3>ジムの説明<br>ジムの内容</h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="front-service">
+            <div class="front-service__inner">
+                <h2 class="front-common__title">Menu</h2>
+                <ul class="front-service__list">
+                    <li class="front-service__item">
+                        <img src="img/menu1.jpg" alt="サービス1">
+                        <h3>menu1</h3>
+                        <p>ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります</p>
+                    </li>
+                    <li class="front-service__item">
+                        <img src="img/menu2.jpg" alt="サービス2">
+                        <h3>menu2</h3>
+                        <p>ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります</p>
+                    </li>
+                    <li class="front-service__item">
+                        <img src="img/menu5.jpg" alt="サービス3">
+                        <h3>menu3</h3>
+                        <p>ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="front-price">
+            <div class="front-price__inner">
+                <div class="common-title">
+                    <h2 class="front-common__title">Price</h2>
+                </div>
+                <table>
+                    <thead>
+                        <table class="front-price__table">
+                            <tr>
+                                <th colspan="1">入会金</th>
+                            </tr>
+                    </thead>
+                    <tr>
+                        <td colspan="1" class="front-price__table-time">
+                            ¥10,000  
+                        </td>
+                    </tr>
+                </table>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="non"></td>
+                            <th scope="col">内容</th>
+                            <th scope="col">価格(月額)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>menu1</th>
+                            <td data-label="内容" class="txt">テキストテキスト</td>
+                            <td data-label="価格" class="price">¥10,000</td>
+                        </tr>
+                        <tr>
+                            <th>menu2</th>
+                            <td data-label="内容" class="txt">テキストテキス</td>
+                            <td data-label="価格"class="price">¥10,000</td>
+                        </tr>
+                        <tr>
+                            <th>menu3</th>
+                            <td data-label="内容" class="txt">テキストテキスト</td>
+                            <td data-label="価格"class="price">¥10,000</td>
+                        </tr>
+                    </tbody>
+                </table>   
+            </section>
+
+            <section class="front-access">
+                <div class="front-access__inner">
+                    <div class="common-title">
+                        <h2 class="front-common__title">Access</h2>
+                    </div>
+                    <div class="item-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25530.51050434475!2d135.1320369207079!3d34.48708556500472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600097c6d1356eab%3A0x6382a6923c5d6954!2z5aSn6Ziq5rm-!5e0!3m2!1sja!2sjp!4v1676170083872!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="table-accsess">
+                    <table class="accsess">
+                        <tr>
+                        <th>住所</th>
+                        <td>〇〇市〇〇区〇〇〇〇</td>
+                        </tr>
+                        <tr>
+                        <th>アクセス</th>
+                        <td>〇〇駅から車で００分</td>
+                        </tr>
+                        <tr>
+                        <th>電話番号</th>
+                        <td>０００−００００−００００</td>
+                        </tr>
+                        <tr>
+                        <th>e-mail</th>
+                        <td>machoninarinai@co.jp.com</td>
+                        </tr>
+                    </table>
+                </div>
+                </section>
+
+        <section class="front-news">
+            <h2 class="front-common__title">News</h2>
+            <article class="front-news__wrap">
+            <a href="#">
+                <time datetime="2022-04-01">2022/04/01</time>
+                <h3>タイトルタイトルタイトル</h3>
+            </a>
+            </article>
+            <div class="front-common__btn">
+                <a href="archive.html">ニュース一覧はこちらから</a>
+            </div>
+        </section>
+
+
+
+
+        <section class="front-contact">
+            <div class="front-contact__inner">
+                <h2 class="front-common__title">Contact</h2>
+                <p class="front-contact__text">まずはお気軽に<br>無料で体験&カウンセリング</p>
+                <div class="front-common__btn btn--turquoise">
+                    <a>お申し込みはこちら</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p><small>Copyright machoninaritai.</small></p>
+    </footer>
+<script src="humburger.js"></script>    
+</body>
+</html>
